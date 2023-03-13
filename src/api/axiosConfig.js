@@ -13,7 +13,7 @@ class axiosConfig{
     }
 
     createReview(review){
-        return axios.post(MOVIE_API_BASE_URL, review)
+        return axios.post(MOVIE_API_BASE_URL + "/reviews", review)
     }
 
 }
